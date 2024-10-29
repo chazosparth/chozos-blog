@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chazos Partha - Blog</title>
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            .blog-card:hover {
+                transform: translateY(-4px);
+                transition: transform 0.2s ease-in-out;
+            }
+        </style>
+    </head>
+    <body class="bg-gray-50">
+        <!-- Navigation -->
+        <nav class="bg-white shadow-lg">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="flex justify-between items-center py-4">
+                    <h1 class="text-2xl font-bold text-gray-800">
+                        Chazos Partha
+                    </h1>
+                    <div>
+                        <a
+                            href="#"
+                            class="text-gray-600 hover:text-gray-800 px-3 py-2"
+                            >Home</a
+                        >
+                        <a
+                            href="archive/archive.html"
+                            class="text-gray-600 hover:text-gray-800 px-3 py-2"
+                            >Archive</a
+                        >
+                        <a
+                            href="#"
+                            class="text-gray-600 hover:text-gray-800 px-3 py-2"
+                            >About</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="bg-blue-600 text-white py-16">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-4">
+                    Welcome to Chazos Partha
+                </h2>
+                <p class="text-xl">
+                    Exploring ideas, sharing stories, and documenting journey
+                </p>
+            </div>
+        </header>
+
+        <!-- Blog Posts Grid -->
+        <main class="max-w-6xl mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Sample Blog Post Cards -->
+
+                <article
+                    class="bg-white rounded-lg shadow-md overflow-hidden blog-card"
+                >
+                    <img
+                        src="web-development.jpg"
+                        alt="Web Development Guide"
+                        class="w-full h-48 object-cover"
+                    />
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">
+                            Getting Started with Web Development in 2024
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            A comprehensive guide for beginners starting their
+                            journey in web development. Learn about essential
+                            tools, resources, and first steps.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-gray-500"
+                                >Oct 22, 2024</span
+                            >
+                            <a
+                                href="/archive/posts/2024/web-development-guide.html"
+                                class="text-blue-500 hover:text-blue-600"
+                                >Read More →</a
+                            >
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-8">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h3 class="text-xl font-bold">Chazos Partha</h3>
+                        <p class="text-gray-400">
+                            © 2024. All rights reserved.
+                        </p>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-blue-400">Twitter</a>
+                        <a href="#" class="hover:text-blue-400">GitHub</a>
+                        <a href="#" class="hover:text-blue-400">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
